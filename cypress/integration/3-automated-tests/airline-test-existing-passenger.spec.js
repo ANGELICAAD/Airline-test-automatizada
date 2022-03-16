@@ -27,7 +27,5 @@ it('test completo con pasajero regsitrado', () => {
     cy.wait(1000);
     cy.get('.modal-footer > .btn').click();
     cy.wait(1000);
-    cy.get('#btnTotalPayment').click();
-    cy.wait(1000);
     cy.get('#btnConfirm').click();
 });
